@@ -20,9 +20,7 @@ class Food extends BaseController
         // ];
         return view('food_view', $data);
     }
-     public function redirect() : String {
-        return view('data');
-    }
+
 
     public function inputData()
     {
